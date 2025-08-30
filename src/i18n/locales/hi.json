@@ -1,0 +1,99 @@
+{
+  "common": {
+    "welcome": "स्वागत",
+    "continue": "जारी रखें",
+    "back": "वापस",
+    "next": "आगे",
+    "save": "सेव करें",
+    "cancel": "रद्द करें",
+    "loading": "लोड हो रहा है...",
+    "error": "त्रुटि",
+    "success": "सफलता",
+    "online": "ऑनलाइन",
+    "offline": "ऑफलाइन",
+    "syncing": "सिंक हो रहा है..."
+  },
+  "onboarding": {
+    "languageSelection": "अपनी भाषा चुनें",
+    "languagePreview": "अपनी भाषा चुनने के लिए टैप करें",
+    "welcomeTitle": "स्मार्ट कृषि",
+    "welcomeSubtitle": "बेहतर फसल और अधिक मुनाफे के लिए आपका खेती साथी",
+    "voiceIntro": "स्मार्ट कृषि में आपका स्वागत है - आपका आवाज-सक्षम खेती सहायक"
+  },
+  "auth": {
+    "phoneNumber": "अपना फोन नंबर दर्ज करें",
+    "otp": "OTP दर्ज करें",
+    "verify": "सत्यापित करें",
+    "profileSetup": "अपनी प्रोफाइल पूरी करें",
+    "name": "आपका नाम",
+    "farmSize": "खेत का आकार (एकड़)",
+    "location": "स्थान"
+  },
+  "dashboard": {
+    "title": "फार्म डैशबोर्ड",
+    "mySoil": "मेरी मिट्टी",
+    "bestCrops": "सर्वोत्तम फसलें",
+    "marketPrices": "बाजार भाव",
+    "guidance": "मार्गदर्शन",
+    "askAI": "AI से पूछें",
+    "myFarm": "मेरा खेत"
+  },
+  "soil": {
+    "title": "मिट्टी विश्लेषण",
+    "ph": "pH स्तर",
+    "nitrogen": "नाइट्रोजन",
+    "phosphorus": "फास्फोरस",
+    "potassium": "पोटेशियम",
+    "moisture": "नमी",
+    "overall": "समग्र स्वास्थ्य",
+    "excellent": "उत्कृष्ट",
+    "good": "अच्छा",
+    "fair": "ठीक-ठाक",
+    "poor": "खराब",
+    "recommendations": "सुझाव"
+  },
+  "crops": {
+    "title": "फसल सुझाव",
+    "expectedYield": "अपेक्षित उत्पादन",
+    "expectedProfit": "अपेक्षित लाभ",
+    "sustainability": "स्थिरता",
+    "marketDemand": "बाजार की मांग",
+    "waterUse": "पानी का उपयोग",
+    "soilMatch": "मिट्टी मैच",
+    "high": "उच्च",
+    "medium": "मध्यम",
+    "low": "कम"
+  },
+  "market": {
+    "title": "बाजार भाव",
+    "searchCrop": "फसल खोजें",
+    "priceHistory": "भाव इतिहास (7 दिन)",
+    "nearbyMarkets": "नजदीकी बाजार",
+    "priceChange": "भाव परिवर्तन"
+  },
+  "guidance": {
+    "title": "स्मार्ट मार्गदर्शन",
+    "todaysTasks": "आज क्या करना है?",
+    "irrigation": "सिंचाई",
+    "pest": "कीट नियंत्रण",
+    "fertilizer": "उर्वरक",
+    "harvest": "फसल",
+    "completed": "पूर्ण",
+    "pending": "लंबित"
+  },
+  "voice": {
+    "listening": "सुन रहा है...",
+    "tapToSpeak": "बोलने के लिए टैप करें",
+    "askQuestion": "खेती के बारे में कुछ भी पूछें",
+    "processing": "प्रोसेसिंग...",
+    "speakNow": "अब बोलें"
+  },
+  "settings": {
+    "title": "सेटिंग्स",
+    "language": "भाषा",
+    "voice": "आवाज सेटिंग्स",
+    "accessibility": "पहुंच",
+    "notifications": "सूचनाएं",
+    "about": "के बारे में"
+  }
+}

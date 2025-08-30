@@ -26,11 +26,14 @@ export default {
 				foreground: 'hsl(var(--foreground))',
 				primary: {
 					DEFAULT: 'hsl(var(--primary))',
-					foreground: 'hsl(var(--primary-foreground))'
+					foreground: 'hsl(var(--primary-foreground))',
+					hover: 'hsl(var(--primary-hover))',
+					glow: 'hsl(var(--primary-glow))'
 				},
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
-					foreground: 'hsl(var(--secondary-foreground))'
+					foreground: 'hsl(var(--secondary-foreground))',
+					hover: 'hsl(var(--secondary-hover))'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
@@ -42,7 +45,8 @@ export default {
 				},
 				accent: {
 					DEFAULT: 'hsl(var(--accent))',
-					foreground: 'hsl(var(--accent-foreground))'
+					foreground: 'hsl(var(--accent-foreground))',
+					hover: 'hsl(var(--accent-hover))'
 				},
 				popover: {
 					DEFAULT: 'hsl(var(--popover))',
@@ -52,16 +56,46 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
+				success: {
+					DEFAULT: 'hsl(var(--success))',
+					foreground: 'hsl(var(--success-foreground))'
+				},
+				warning: {
+					DEFAULT: 'hsl(var(--warning))',
+					foreground: 'hsl(var(--warning-foreground))'
+				},
+				voice: {
+					active: 'hsl(var(--voice-active))',
+					inactive: 'hsl(var(--voice-inactive))'
 				}
+			},
+			backgroundImage: {
+				'gradient-primary': 'var(--gradient-primary)',
+				'gradient-earth': 'var(--gradient-earth)',
+				'gradient-harvest': 'var(--gradient-harvest)'
+			},
+			fontSize: {
+				'xs': 'var(--font-size-xs)',
+				'sm': 'var(--font-size-sm)',
+				'base': 'var(--font-size-base)',
+				'lg': 'var(--font-size-lg)',
+				'xl': 'var(--font-size-xl)',
+				'2xl': 'var(--font-size-2xl)',
+				'3xl': 'var(--font-size-3xl)',
+				'4xl': 'var(--font-size-4xl)'
+			},
+			spacing: {
+				'touch': 'var(--spacing-touch)'
+			},
+			minHeight: {
+				'touch': 'var(--touch-target)'
+			},
+			minWidth: {
+				'touch': 'var(--touch-target)'
+			},
+			boxShadow: {
+				'glow': 'var(--shadow-glow)',
+				'agricultural': 'var(--shadow-lg)'
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

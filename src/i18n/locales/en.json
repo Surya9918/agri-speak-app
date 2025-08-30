@@ -1,0 +1,99 @@
+{
+  "common": {
+    "welcome": "Welcome",
+    "continue": "Continue",
+    "back": "Back",
+    "next": "Next",
+    "save": "Save",
+    "cancel": "Cancel",
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "online": "Online",
+    "offline": "Offline",
+    "syncing": "Syncing..."
+  },
+  "onboarding": {
+    "languageSelection": "Choose your language",
+    "languagePreview": "Tap to choose your language",
+    "welcomeTitle": "Smart Agriculture",
+    "welcomeSubtitle": "Your farming companion for better crops and higher profits",
+    "voiceIntro": "Welcome to Smart Agriculture - your voice-enabled farming assistant"
+  },
+  "auth": {
+    "phoneNumber": "Enter your phone number",
+    "otp": "Enter OTP",
+    "verify": "Verify",
+    "profileSetup": "Complete your profile",
+    "name": "Your name",
+    "farmSize": "Farm size (acres)",
+    "location": "Location"
+  },
+  "dashboard": {
+    "title": "Farm Dashboard",
+    "mySoil": "My Soil",
+    "bestCrops": "Best Crops",
+    "marketPrices": "Market Prices",
+    "guidance": "Guidance",
+    "askAI": "Ask AI",
+    "myFarm": "My Farm"
+  },
+  "soil": {
+    "title": "Soil Analysis",
+    "ph": "pH Level",
+    "nitrogen": "Nitrogen",
+    "phosphorus": "Phosphorus",
+    "potassium": "Potassium",
+    "moisture": "Moisture",
+    "overall": "Overall Health",
+    "excellent": "Excellent",
+    "good": "Good",
+    "fair": "Fair",
+    "poor": "Poor",
+    "recommendations": "Recommendations"
+  },
+  "crops": {
+    "title": "Crop Suggestions",
+    "expectedYield": "Expected Yield",
+    "expectedProfit": "Expected Profit",
+    "sustainability": "Sustainability",
+    "marketDemand": "Market Demand",
+    "waterUse": "Water Use",
+    "soilMatch": "Soil Match",
+    "high": "High",
+    "medium": "Medium",
+    "low": "Low"
+  },
+  "market": {
+    "title": "Market Prices",
+    "searchCrop": "Search for a crop",
+    "priceHistory": "Price History (7 days)",
+    "nearbyMarkets": "Nearby Markets",
+    "priceChange": "Price Change"
+  },
+  "guidance": {
+    "title": "Smart Guidance",
+    "todaysTasks": "What to do today?",
+    "irrigation": "Irrigation",
+    "pest": "Pest Control",
+    "fertilizer": "Fertilizer",
+    "harvest": "Harvest",
+    "completed": "Completed",
+    "pending": "Pending"
+  },
+  "voice": {
+    "listening": "Listening...",
+    "tapToSpeak": "Tap to speak",
+    "askQuestion": "Ask me anything about farming",
+    "processing": "Processing...",
+    "speakNow": "Speak now"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "voice": "Voice Settings",
+    "accessibility": "Accessibility",
+    "notifications": "Notifications",
+    "about": "About"
+  }
+}

@@ -1,0 +1,99 @@
+{
+  "common": {
+    "welcome": "స్వాగతం",
+    "continue": "కొనసాగించు",
+    "back": "వెనుకకు",
+    "next": "తరువాత",
+    "save": "సేవ్ చేయి",
+    "cancel": "రద్దు చేయి",
+    "loading": "లోడ్ అవుతోంది...",
+    "error": "లోపం",
+    "success": "విజయం",
+    "online": "ఆన్‌లైన్",
+    "offline": "ఆఫ్‌లైన్",
+    "syncing": "సింక్ అవుతోంది..."
+  },
+  "onboarding": {
+    "languageSelection": "మీ భాషను ఎంచుకోండి",
+    "languagePreview": "మీ భాషను ఎంచుకోవడానికి ట్యాప్ చేయండి",
+    "welcomeTitle": "స్మార్ట్ వ్యవసాయం",
+    "welcomeSubtitle": "మెరుగైన పంటలు మరియు అధిక లాభాల కోసం మీ వ్యవసాయ సహాయకుడు",
+    "voiceIntro": "స్మార్ట్ వ్యవసాయానికి స్వాగతం - మీ వాయిస్-ఎనేబుల్డ్ వ్యవసాయ సహాయకుడు"
+  },
+  "auth": {
+    "phoneNumber": "మీ ఫోన్ నంబర్‌ను నమోదు చేయండి",
+    "otp": "OTP నమోదు చేయండి",
+    "verify": "ధృవీకరించు",
+    "profileSetup": "మీ ప్రొఫైల్‌ను పూర్తి చేయండి",
+    "name": "మీ పేరు",
+    "farmSize": "పొలం పరిమాణం (ఎకరాలు)",
+    "location": "స్థానం"
+  },
+  "dashboard": {
+    "title": "ఫార్మ్ డాష్‌బోర్డ్",
+    "mySoil": "నా మట్టి",
+    "bestCrops": "ఉత్తమ పంటలు",
+    "marketPrices": "మార్కెట్ ధరలు",
+    "guidance": "మార్గదర్శకత్వం",
+    "askAI": "AI ని అడగండి",
+    "myFarm": "నా పొలం"
+  },
+  "soil": {
+    "title": "మట్టి విశ్లేషణ",
+    "ph": "pH స్థాయి",
+    "nitrogen": "నైట్రోజన్",
+    "phosphorus": "ఫాస్పరస్",
+    "potassium": "పొటాసియం",
+    "moisture": "తేమ",
+    "overall": "మొత్తం ఆరోగ్యం",
+    "excellent": "అద్భుతం",
+    "good": "మంచిది",
+    "fair": "సరైనది",
+    "poor": "చెడు",
+    "recommendations": "సిఫార్సులు"
+  },
+  "crops": {
+    "title": "పంట సిఫార్సులు",
+    "expectedYield": "ఆశించిన దిగుబడి",
+    "expectedProfit": "ఆశించిన లాభం",
+    "sustainability": "స్థిరత్వం",
+    "marketDemand": "మార్కెట్ డిమాండ్",
+    "waterUse": "నీటి వినియోగం",
+    "soilMatch": "మట్టి మ్యాచ్",
+    "high": "అధిక",
+    "medium": "మధ్యమ",
+    "low": "తక్కువ"
+  },
+  "market": {
+    "title": "మార్కెట్ ధరలు",
+    "searchCrop": "పంటను వెతకండి",
+    "priceHistory": "ధర చరిత్ర (7 రోజులు)",
+    "nearbyMarkets": "సమీప మార్కెట్లు",
+    "priceChange": "ధర మార్పు"
+  },
+  "guidance": {
+    "title": "స్మార్ట్ మార్గదర్శకత్వం",
+    "todaysTasks": "ఈరోజు ఏం చేయాలి?",
+    "irrigation": "నీటిపారుదల",
+    "pest": "పెస్ట్ కంట్రోల్",
+    "fertilizer": "ఎరువులు",
+    "harvest": "పంట",
+    "completed": "పూర్తయింది",
+    "pending": "పెండింగ్"
+  },
+  "voice": {
+    "listening": "వింటోంది...",
+    "tapToSpeak": "మాట్లాడటానికి ట్యాప్ చేయండి",
+    "askQuestion": "వ్యవసాయం గురించి ఏదైనా అడగండి",
+    "processing": "ప్రాసెసింగ్...",
+    "speakNow": "ఇప్పుడు మాట్లాడండి"
+  },
+  "settings": {
+    "title": "సెట్టింగులు",
+    "language": "భాష",
+    "voice": "వాయిస్ సెట్టింగులు",
+    "accessibility": "ప్రాప్యత",
+    "notifications": "నోటిఫికేషన్లు",
+    "about": "గురించి"
+  }
+}

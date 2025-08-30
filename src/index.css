@@ -2,95 +2,124 @@
 @tailwind components;
 @tailwind utilities;
 
-/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
-All colors MUST be HSL.
-*/
+/* Smart Agriculture PWA Design System - Earth-toned, Accessible, Voice-first */
 
 @layer base {
   :root {
-    --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    /* Agricultural color palette - earth tones with high contrast */
+    --background: 51 100% 98%; /* Warm cream background */
+    --foreground: 120 60% 8%; /* Deep forest green text */
 
-    --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card: 0 0% 100%; /* Pure white cards */
+    --card-foreground: 120 60% 8%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 120 60% 8%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Rich agricultural green */
+    --primary: 120 85% 25%; /* Deep agricultural green */
+    --primary-foreground: 0 0% 98%;
+    --primary-hover: 120 85% 20%;
+    --primary-glow: 120 85% 35%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Earthy brown */
+    --secondary: 30 35% 85%; /* Light earth tone */
+    --secondary-foreground: 30 40% 15%;
+    --secondary-hover: 30 35% 80%;
 
-    --muted: 210 40% 96.1%;
-    --muted-foreground: 215.4 16.3% 46.9%;
+    /* Accent: Golden harvest */
+    --accent: 45 95% 60%; /* Golden yellow */
+    --accent-foreground: 45 95% 10%;
+    --accent-hover: 45 95% 55%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Muted earth tones */
+    --muted: 30 20% 92%;
+    --muted-foreground: 120 20% 35%;
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 210 40% 98%;
+    /* Status colors */
+    --success: 120 60% 35%;
+    --success-foreground: 0 0% 98%;
+    --warning: 45 95% 50%;
+    --warning-foreground: 45 95% 10%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 98%;
 
-    --border: 214.3 31.8% 91.4%;
-    --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    /* Interactive elements */
+    --border: 120 20% 85%;
+    --input: 120 20% 90%;
+    --ring: 120 85% 25%;
 
-    --radius: 0.5rem;
+    /* Voice interaction highlights */
+    --voice-active: 120 85% 35%;
+    --voice-inactive: 120 20% 60%;
 
-    --sidebar-background: 0 0% 98%;
+    /* Agricultural gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--primary-glow)));
+    --gradient-earth: linear-gradient(180deg, hsl(var(--background)), hsl(var(--muted)));
+    --gradient-harvest: linear-gradient(45deg, hsl(var(--accent)), hsl(var(--warning)));
 
-    --sidebar-foreground: 240 5.3% 26.1%;
+    /* Accessibility & Typography */
+    --font-size-xs: 0.75rem;
+    --font-size-sm: 0.875rem;
+    --font-size-base: 1rem;
+    --font-size-lg: 1.125rem;
+    --font-size-xl: 1.25rem;
+    --font-size-2xl: 1.5rem;
+    --font-size-3xl: 1.875rem;
+    --font-size-4xl: 2.25rem;
 
-    --sidebar-primary: 240 5.9% 10%;
+    /* Touch-friendly sizing */
+    --touch-target: 44px;
+    --spacing-touch: 1rem;
 
-    --sidebar-primary-foreground: 0 0% 98%;
+    /* Shadows for depth */
+    --shadow-sm: 0 1px 2px 0 hsl(var(--primary) / 0.05);
+    --shadow-md: 0 4px 6px -1px hsl(var(--primary) / 0.1);
+    --shadow-lg: 0 10px 15px -3px hsl(var(--primary) / 0.1);
+    --shadow-glow: 0 0 20px hsl(var(--voice-active) / 0.3);
 
-    --sidebar-accent: 240 4.8% 95.9%;
+    /* Radius */
+    --radius: 0.75rem;
+    --radius-sm: 0.5rem;
+    --radius-lg: 1rem;
 
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    --transition-bounce: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 120 20% 8%;
+    --foreground: 51 100% 95%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 120 15% 10%;
+    --card-foreground: 51 100% 95%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 120 15% 10%;
+    --popover-foreground: 51 100% 95%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 120 85% 45%;
+    --primary-foreground: 120 60% 8%;
+    --primary-hover: 120 85% 50%;
+    --primary-glow: 120 85% 55%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 30 20% 15%;
+    --secondary-foreground: 30 35% 85%;
+    --secondary-hover: 30 20% 20%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --accent: 45 95% 65%;
+    --accent-foreground: 45 95% 10%;
+    --accent-hover: 45 95% 70%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --muted: 120 15% 12%;
+    --muted-foreground: 120 20% 65%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --border: 120 15% 18%;
+    --input: 120 15% 15%;
+    --ring: 120 85% 45%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --voice-active: 120 85% 45%;
+    --voice-inactive: 120 20% 40%;
   }
 }
 
@@ -100,6 +129,136 @@ All colors MUST be HSL.
   }
 
   body {
-    @apply bg-background text-foreground;
+    @apply bg-background text-foreground font-sans antialiased;
+    font-feature-settings: "kern", "liga", "tnum", "zero", "ss01", "locl";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  /* High contrast focus for accessibility */
+  *:focus-visible {
+    outline: 2px solid hsl(var(--voice-active));
+    outline-offset: 2px;
+  }
+
+  /* Touch-friendly interactive elements */
+  button, [role="button"], input, select, textarea {
+    min-height: var(--touch-target);
+    min-width: var(--touch-target);
+  }
+
+  /* Voice interaction pulse animation */
+  .voice-pulse {
+    animation: voice-pulse 2s infinite;
+  }
+
+  @keyframes voice-pulse {
+    0%, 100% {
+      box-shadow: 0 0 0 0 hsl(var(--voice-active) / 0.7);
+    }
+    50% {
+      box-shadow: 0 0 0 10px hsl(var(--voice-active) / 0);
+    }
+  }
+
+  /* Agricultural themed animations */
+  .grow-in {
+    animation: grow-in 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+
+  @keyframes grow-in {
+    0% {
+      transform: scale(0.8);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 1;
+    }
+  }
+
+  .slide-up {
+    animation: slide-up 0.4s ease-out;
+  }
+
+  @keyframes slide-up {
+    0% {
+      transform: translateY(20px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+}
+
+@layer components {
+  /* Agricultural tile components */
+  .farm-tile {
+    @apply bg-card border border-border rounded-lg p-6 shadow-md hover:shadow-lg;
+    @apply transition-all duration-300 cursor-pointer;
+    @apply min-h-[120px] flex flex-col items-center justify-center text-center;
+  }
+
+  .farm-tile:hover {
+    @apply transform scale-105 shadow-lg;
+    box-shadow: var(--shadow-glow);
+  }
+
+  .farm-tile-icon {
+    @apply w-12 h-12 mb-3 text-primary;
+  }
+
+  .farm-tile-title {
+    @apply text-lg font-semibold text-foreground mb-1;
+  }
+
+  .farm-tile-subtitle {
+    @apply text-sm text-muted-foreground;
+  }
+
+  /* Voice interaction button */
+  .voice-button {
+    @apply bg-gradient-to-r from-primary to-primary-glow;
+    @apply text-primary-foreground rounded-full p-4;
+    @apply shadow-lg hover:shadow-xl active:scale-95;
+    @apply transition-all duration-200;
+    @apply min-w-[60px] min-h-[60px] flex items-center justify-center;
+  }
+
+  .voice-button.active {
+    @apply voice-pulse;
+    background: linear-gradient(135deg, hsl(var(--voice-active)), hsl(var(--accent)));
+  }
+
+  /* Status indicators */
+  .status-online {
+    @apply bg-success text-success-foreground;
+  }
+
+  .status-offline {
+    @apply bg-muted text-muted-foreground;
+  }
+
+  .status-syncing {
+    @apply bg-warning text-warning-foreground;
+  }
+
+  /* High contrast text utilities */
+  .text-high-contrast {
+    @apply text-foreground font-medium;
+  }
+
+  .text-large {
+    @apply text-xl leading-relaxed;
+  }
+
+  .text-extra-large {
+    @apply text-2xl leading-relaxed font-semibold;
   }
 }
